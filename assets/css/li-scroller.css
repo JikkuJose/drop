@@ -1,0 +1,22 @@
+/* liScroll styles */
+
+.liScrolltickercontainer .liScrollmask { /* that serves as a mask. so you get a sort of padding both left and right */
+position: relative;
+left: 10px;
+width: 718px;
+overflow: hidden;
+}
+
+ul.liScrollnewsticker { /* that's your list */
+position: relative;
+left: 400px;
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
+
+ul.liScrollnewsticker li {
+float: left; /* important: display inline gives incorrect results when you check for elem's width */
+margin: 0;
+padding: 0;
+}

@@ -1,0 +1,2 @@
+RewriteEngine on
+RewriteRule ^add.php$ edit.php [NC]
